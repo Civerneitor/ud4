@@ -6,11 +6,12 @@ public class ejercicio5 {
 		int B = 5;
 		int C = 6;
 		int D = 7;
+		int aux = B;
 		B=C;
 		C=A;
 		A=D;
-		D=B;
-
+		D=aux;
+		
 		System.out.println("Variable A="+A);
 		System.out.println("Variable B="+B);
 		System.out.println("Variable C="+C);
